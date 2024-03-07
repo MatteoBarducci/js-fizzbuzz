@@ -11,6 +11,7 @@ GENERAL
 -------------*/
 body{
     font-family: "Montserrat", sans-serif;
+    background-color: rgb(158, 65, 245);
 }
 
 .container{
@@ -30,4 +31,25 @@ body{
     height: 100px;
     background-color: aqua;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+.Fizz{
+    background-color: #e1ff36;
+}
+
+.Buzz{
+    background-color: #3dff61;
+    color: rgb(0, 0, 0);
+}
+
+.FizzBuzz{
+    background-color: #ff38b6;
+    color: white;
 }
